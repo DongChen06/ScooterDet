@@ -1,0 +1,12 @@
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: /home/dong9/PycharmProjects/ScooterDet/yolov5/datasets/YOLODataset  # dataset root dir
+train:  /home/dong9/PycharmProjects/ScooterDet/yolov5/datasets/YOLODataset/images/train # train images (relative to 'path') 118287 images
+val:  /home/dong9/PycharmProjects/ScooterDet/yolov5/datasets/YOLODataset/images/val # val images (relative to 'path') 5000 images
+test: /home/dong9/PycharmProjects/ScooterDet/yolov5/datasets/YOLODataset/images/val  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
+
+is_coco: False
+
+# Classes
+names: ['person', 'bicycle', 'car', 'motorcycle', 'bus', 'truck', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'scooter']
+
+nc: 12
