@@ -279,7 +279,7 @@ class Labelme2YOLO(object):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--json_dir', type=str, default='../datasets/Mixed/labels',
+    parser.add_argument('--json_dir', type=str, default='../Mixed/Mixed/labels',
                         help='Please input the path of the labelme json files.')
     parser.add_argument('--val_size', type=float, nargs='?', default=0.2,
                         help='Please input the validation dataset size, for example 0.1 ')
