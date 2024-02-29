@@ -1,7 +1,7 @@
 import json
 import os
 from PIL import Image, ImageDraw
-import matplotlib.pyplot as plt
+import argparse
 
 def draw_bounding_boxes(image_path, annotations):
     """Draw bounding boxes and labels on an image."""
@@ -38,7 +38,14 @@ def process_folder(folder_path):
 
     return label_count
 
-# Specify the path to your folder
-folder_path = "D:/ScooterDet"
-label_count = process_folder(folder_path)
-print("Label counts:", label_count)
+def main():
+    parser = argparse.ArgumentParser(description='Visualize images with bounding boxes from JSON.')
+    parser.add_argument('folder_path', type=str, help='Path to the Object Detection Data folder.')
+    args = parser.parse_args()
+
+    folder_path = args.folder_path
+    label_count = process_folder(folder_path)
+    print("Label counts:", label_count)
+
+if __name__ == '__main__':
+    main()
