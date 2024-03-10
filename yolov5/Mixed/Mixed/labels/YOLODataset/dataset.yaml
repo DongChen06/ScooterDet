@@ -1,6 +1,0 @@
-train: ../Mixed/Mixed/labels/YOLODataset/images/train/
-val: ../Mixed/Mixed/labels/YOLODataset/images/val/
-
-nc: 12
-
-names: ['person', 'bicycle', 'car', 'motorcycle', 'bus', 'truck', 'traffic light', 'fire hydrant', 'stop sign', 'parking meter', 'bench', 'scooter']
