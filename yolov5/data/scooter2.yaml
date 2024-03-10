@@ -1,0 +1,24 @@
+path: D:\ScooterDet\yolov5\Mixed_300\labels\YOLODataset 
+train: images/train/
+val: images/val/
+test: D:\ScooterDet\yolov5\Mixed_300\labels\YOLODataset 
+
+names:
+  0: person
+  1: bicycle
+  2: car
+  3: motorcycle
+  4: bus
+  5: truck
+  6: traffic light
+  7: fire hydrant
+  8: stop sign
+  9: parking meter
+  10: bench
+  11: scooter
+  13: 'parked bicycle'
+  14: 'parked vehicle'
+  15: 'traffic light g'
+  16: 'traffic light r'
+
+nc: 16

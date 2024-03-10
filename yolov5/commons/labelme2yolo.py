@@ -30,7 +30,11 @@ category_map = \
  9: 'stop sign',
  10: 'parking meter',
  11: 'bench',
- 12: 'scooter'
+ 12: 'scooter',
+ 13: 'parked bicycle',
+ 14: 'parked vehicle',
+ 15: 'traffic light g',
+ 16: 'traffic light r',
  }
 
 class Labelme2YOLO(object):

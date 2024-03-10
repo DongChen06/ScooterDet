@@ -1,5 +1,5 @@
 # Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
-path: D:\ScooterDet\yolov5\Mixed\labels\YOLODataset # dataset root dir
+path: D:\ScooterDet\yolov5\Mixed_300\labels\YOLODataset # dataset root dir
 train:  images\train # train images (relative to 'path') 118287 images
 val:  images/val # val images (relative to 'path') 5000 images
 test: images/val  # 20288 of 40670 images, submit to https://competitions.codalab.org/competitions/20794
@@ -18,5 +18,10 @@ names:
   9: parking meter
   10: bench
   11: scooter
+  13: 'parked bicycle'
+  14: 'parked vehicle'
+  15: 'traffic light g'
+  16: 'traffic light r'
+  
 
-nc: 12
+nc: 16

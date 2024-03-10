@@ -19,7 +19,7 @@ def draw_bounding_boxes(image_path, annotations):
 
 def process_folder(folder_path):
     label_count = {}
-    images_to_show = 5  # Number of images to visualize
+    images_to_show = 1  # Number of images to visualize
     images_path = os.path.join(folder_path, "images")
     labels_path = os.path.join(folder_path, "labels")
 
